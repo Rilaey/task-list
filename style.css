@@ -1,0 +1,36 @@
+:root {
+    --dark: #347151;
+    --darker: #1f2937;
+    --darkest: black;
+    --gray: gray;
+    --light: white;
+    --pink: pink;
+    --purple: purple;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: var(--darker);
+    color: white;
+}
+
+header {
+    padding: 2em 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: var(--gray)
+}
